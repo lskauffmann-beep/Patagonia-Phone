@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patagonia Phone — Hiking Edition</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --color-accent: #8a6a3f;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <a href="index.html" class="logo">patagonia</a>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Menü öffnen">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+        </button>
+
+        <nav class="menu" id="primary-nav">
+            <a href="index.html">Climbing Phone</a>
+            <a href="sea.html">Sea Phone</a>
+            <a href="hiking.html">Hiking Phone</a>
+        </nav>
+    </header>
+
+    <!-- 1. HERO -->
+    <section class="hero">
+        <video class="hero-media" autoplay muted loop playsinline poster="images/hero-hiking-poster.jpg">
+            <source src="videos/herohiking.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <h1>Built for<br>the trail.</h1>
+            <p>Ausdauernd. Navigationsstark. Solarbetrieben.</p>
+            <a href="#product" class="btn btn-light">Mehr erfahren</a>
+        </div>
+    </section>
+
+    <!-- 2. PRODUCT -->
+    <section class="product-section reveal" id="product">
+        <div class="product-text">
+            <span class="eyebrow">Das Hiking Phone</span>
+            <h2>Gebaut für<br>lange Wege.</h2>
+            <p>Ausdauernd. Navigationsstark. Bereit für den Trail — mehrtägig und ohne Steckdose.</p>
+            <p class="product-price">Ab <strong>929 €</strong></p>
+            <div class="product-ctas">
+                <a href="#" class="btn btn-dark">Jetzt vorbestellen</a>
+                <a href="#explosion" class="btn btn-outline">Mehr erfahren</a>
+            </div>
+        </div>
+
+        <div class="product-image">
+            <img src="images/hikingphone.png" alt="Patagonia Hiking Phone, robustes Outdoor-Smartphone für Wanderungen">
+        </div>
+    </section>
+
+    <!-- 3. EMOTION -->
+    <section class="emotion-section">
+        <img src="images/Emotionalhiking.png" alt="" role="presentation">
+        <div class="emotion-content reveal">
+            <h2>Gebaut für<br>den Trail.</h2>
+            <p>Kein Asphalt. Keine Grenzen.<br>Nur du und der Weg.</p>
+        </div>
+    </section>
+    <!-- 4. EXPLOSION / MODULAR -->
+    <section class="explosion-section" id="explosion">
+
+        <div class="explosion-desktop">
+
+            <div class="explosion-sticky">
+                <div class="explosion-image-wrap">
+                    <img class="component-img is-active" src="images/hiking/component-glass.png" alt="Daylight Display"
+                        data-component="0">
+                    <img class="component-img" src="images/hiking/component-frame.png" alt="Aluminium Frame"
+                        data-component="1">
+                    <img class="component-img" src="images/hiking/component-pcb.png" alt="Hauptplatine"
+                        data-component="2">
+                    <img class="component-img" src="images/hiking/component-battery.png" alt="Replaceable Battery"
+                        data-component="3">
+                    <img class="component-img" src="images/hiking/component-housing.png" alt="Gehäuse"
+                        data-component="4">
+                    <img class="component-img" src="images/hiking/component-hook.png" alt="Trail Hook"
+                        data-component="5">
+                </div>
+            </div>
+
+            <div class="explosion-steps">
+
+                <div class="explosion-intro">
+                    <span class="eyebrow">Endurance Construction</span>
+                    <h2>Built for<br>the Long Run.</h2>
+                    <p>Gebaut für Tage — nicht für Stunden.</p>
+                </div>
+
+                <div class="step" data-component="0">
+                    <span class="step-index">01</span>
+                    <h3>Daylight Display</h3>
+                    <p>Gorilla® Glass Victus 2 — auch bei direkter Sonne klar ablesbar.</p>
+                </div>
+
+                <div class="step" data-component="1">
+                    <span class="step-index">02</span>
+                    <h3>Aluminium Frame</h3>
+                    <p>Recyceltes Aluminium, CNC-gefräst — verteilt Aufprallkräfte zuverlässig.</p>
+                </div>
+
+                <div class="step" data-component="2">
+                    <span class="step-index">03</span>
+                    <h3>Hauptplatine</h3>
+                    <p>Energieoptimierter Prozessor — GPS-Navigation auch offline.</p>
+                </div>
+
+                <div class="step" data-component="3">
+                    <span class="step-index">04</span>
+                    <h3>Replaceable Battery</h3>
+                    <p>5000 mAh, werkzeugfrei wechselbar — für mehrtägige Touren.</p>
+                </div>
+
+                <div class="step" data-component="4">
+                    <span class="step-index">05</span>
+                    <h3>Gehäuse</h3>
+                    <p>Recyceltes Aluminium mit integriertem Solarpanel — tage- und netzunabhängig.</p>
+                </div>
+
+                <div class="step" data-component="5">
+                    <span class="step-index">06</span>
+                    <h3>Trail Hook</h3>
+                    <p>Karabiner-Halterung für Rucksackgurt, geprüft auf 80 kg Zugkraft.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        </div>
+
+        </div>
+
+        <!-- MOBILE: Karten -->
+        <div class="mobile-components">
+            <div class="explosion-intro">
+                <span class="eyebrow">Endurance Construction</span>
+                <h2>Built for<br>the Long Run.</h2>
+            </div>
+            <ul class="component-cards">
+                <li class="component-card">
+                    <img src="images/component-glass.png" alt="Daylight Display" loading="lazy">
+                    <h3>Daylight Display</h3>
+                    <p>Klar ablesbar auch bei direkter Sonne.</p>
+                </li>
+                <li class="component-card">
+                    <img src="images/component-frame.png" alt="Aluminium Frame" loading="lazy">
+                    <h3>Aluminium Frame</h3>
+                    <p>Recyceltes Aluminium, CNC-gefräst.</p>
+                </li>
+                <li class="component-card">
+                    <img src="images/component-pcb.png" alt="Hauptplatine" loading="lazy">
+                    <h3>Hauptplatine</h3>
+                    <p>GPS-Navigation auch offline.</p>
+                </li>
+                <li class="component-card">
+                    <img src="images/component-battery.png" alt="Battery" loading="lazy">
+                    <h3>Replaceable Battery</h3>
+                    <p>5000 mAh — für mehrtägige Touren.</p>
+                </li>
+                <li class="component-card">
+                    <img src="images/component-hook.png" alt="Trail Hook" loading="lazy">
+                    <h3>Trail Hook</h3>
+                    <p>Für Rucksackgurt, 80 kg Zugkraft.</p>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- REPAIR VIDEO -->
+    <section class="repair-section">
+        <div class="repair-content">
+            <span class="eyebrow">Self Repair</span>
+            <h2>Sechs Schrauben.<br>Endlos haltbar.</h2>
+            <p>Kein Werkzeug. Keine Werkstatt. Einfach aufschrauben, Bauteil tauschen, weitermachen.</p>
+        </div>
+        <div class="repair-video-wrap">
+            <video autoplay muted loop playsinline>
+                <source src="videos/handsvideo.mp4" type="video/mp4">
+            </video>
+        </div>
+         <a href="#" class="btn btn-dark">Ersatzteile Jetzt bestellen</a>
+    </section>
+
+
+    <!-- 5. ACCESSORIES -->
+    <section class="accessories-section reveal">
+
+        <div class="accessories-intro">
+            <span class="eyebrow">Zubehör</span>
+            <h2>Für dein Abenteuer.</h2>
+        </div>
+
+        <ul class="accessories-grid">
+
+            <li class="accessory-card">
+                <div class="accessory-img-wrap">
+                    <img src="images/hiking/kompasshiking.png" alt="Kompass" loading="lazy">
+                </div>
+                <p class="accessory-name">Kompass</p>
+                <button class="btn btn-dark btn-small">Shop</button>
+            </li>
+
+            <li class="accessory-card">
+                <div class="accessory-img-wrap">
+                    <img src="images/hiking/hikingbag.png" alt="Trekking Pouch" loading="lazy">
+                </div>
+                <p class="accessory-name">Trekking Pouch</p>
+                <button class="btn btn-dark btn-small">Shop</button>
+            </li>
+
+            <li class="accessory-card">
+                <div class="accessory-img-wrap">
+                    <img src="images/hiking/Karabinerhiking.png" alt="Karabiner-Set" loading="lazy">
+                </div>
+                <p class="accessory-name">Karabiner-Set</p>
+                <button class="btn btn-dark btn-small">Shop</button>
+            </li>
+
+            <li class="accessory-card">
+                <div class="accessory-img-wrap">
+                    <img src="images/hiking/Ladekabelhiking.png" alt="Ladekabel" loading="lazy">
+                </div>
+                <p class="accessory-name">Ladekabel</p>
+                <button class="btn btn-dark btn-small">Shop</button>
+            </li>
+
+            <li class="accessory-card">
+                <div class="accessory-img-wrap">
+                    <img src="images/hiking/Repairkithiking.png" alt="Repair Kit" loading="lazy">
+                </div>
+                <p class="accessory-name">Repair Kit</p>
+                <button class="btn btn-dark btn-small">Shop</button>
+            </li>
+
+        </ul>
+
+    </section>
+
+    <!-- 6. FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-grid">
+
+            <div class="footer-col footer-newsletter">
+                <span class="logo" style="color:white;">patagonia</span>
+                <p>Verpasse keine Abenteuer mehr.</p>
+                <form class="newsletter-form" action="#" method="post">
+                    <label class="sr-only" for="newsletter-email">E-Mail-Adresse</label>
+                    <input id="newsletter-email" type="email" name="email" placeholder="Deine E-Mail-Adresse" required>
+                    <button class="btn btn-light" type="submit">Senden</button>
+                </form>
+            </div>
+
+            <div class="footer-col">
+                <h3>Hilfe</h3>
+                <a href="#">FAQ</a>
+                <a href="#">Versand</a>
+                <a href="#">Rückgabe</a>
+                <a href="#">Kontakt</a>
+            </div>
+
+            <div class="footer-col">
+                <h3>Informationen</h3>
+                <a href="#">Über uns</a>
+                <a href="#">Nachhaltigkeit</a>
+                <a href="#">Garantie</a>
+                <a href="#">Presse</a>
+            </div>
+
+            <div class="footer-col">
+                <h3>Folge uns</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.8" />
+                            <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8" />
+                            <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="TikTok">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" stroke="currentColor" stroke-width="1.8"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2025 Patagonia</span>
+            <div class="footer-legal">
+                <a href="#">Impressum</a>
+                <a href="#">Datenschutz</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

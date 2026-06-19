@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patagonia Phone — Sea Edition</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --color-accent: #2c5f6b;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <a href="index.html" class="logo">patagonia</a>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Menü öffnen">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+        </button>
+
+        <nav class="menu" id="primary-nav">
+            <a href="index.html">Climbing Phone</a>
+            <a href="sea.html">Sea Phone</a>
+            <a href="hiking.html">Hiking Phone</a>
+        </nav>
+    </header>
+
+    <!-- 1. HERO -->
+    <section class="hero">
+        <video class="hero-media" autoplay muted loop playsinline poster="images/hero-sea-poster.jpg">
+            <source src="videos/herosea.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <h1>Built for<br>the depths.</h1>
+            <p>Wasserdicht. Versiegelt. Unaufhaltbar.</p>
+            <a href="#product" class="btn btn-light">Mehr erfahren</a>
+        </div>
+    </section>
+
+    <!-- 2. PRODUCT -->
+    <section class="product-section reveal" id="product">
+        <div class="product-text">
+            <span class="eyebrow">Das Sea Phone</span>
+            <h2>Gebaut für<br>jede Tiefe.</h2>
+            <p>Wasserdicht. Druckresistent. Bereit für den Ozean — bis 30 m Tauchtiefe.</p>
+            <p class="product-price">Ab <strong>949 €</strong></p>
+            <div class="product-ctas">
+                <a href="#" class="btn btn-dark">Jetzt vorbestellen</a>
+                <a href="#explosion" class="btn btn-outline">Mehr erfahren</a>
+            </div>
+        </div>
+
+        <div class="product-image">
+            <img src="images/seaphone.png" alt="Patagonia Sea Phone, wasserdichtes Outdoor-Smartphone">
+        </div>
+    </section>
+
+    <!-- 3. EMOTION -->
+    <section class="emotion-section">
+        <img src="images/Emotionalsea.png" alt="" role="presentation">
+        <div class="emotion-content reveal">
+            <h2>Gebaut für<br>den Ozean.</h2>
+            <p>Kein Ufer. Keine Grenzen.<br>Nur du und das Meer.</p>
+        </div>
+    </section>
+
+    <!-- 4. EXPLOSION / MODULAR -->
+    <section class="explosion-section" id="explosion">
+
+        <div class="explosion-desktop">
+
+            <div class="explosion-sticky">
+                <div class="explosion-image-wrap">
+                    <img class="component-img is-active" src="images/sea/sea-component-glass.png" alt="Pressure Glass"
+                        data-component="0">
+                    <img class="component-img" src="images/sea/sea-component-frame.png" alt="Sealed Frame"
+                        data-component="1">
+                    <img class="component-img" src="images/sea/sea-component-pcb.png" alt="Hauptplatine"
+                        data-component="2">
+                    <img class="component-img" src="images/sea/sea-component-battery.png" alt="Replaceable Battery"
+                        data-component="3">
+                    <img class="component-img" src="images/sea/sea-component-housing.png" alt="Sealed Housing"
+                        data-component="4">
+                    <img class="component-img" src="images/sea/sea-component-strap.png" alt="Float Strap"
+                        data-component="5">
+                </div>
+            </div>
+
+            <div class="explosion-steps">
+
+                <div class="explosion-intro">
+                    <span class="eyebrow">Sealed Construction</span>
+                    <h2>Built to<br>Stay Sealed.</h2>
+                    <p>Versiegelt für Jahre — nicht für den Austausch.</p>
+                </div>
+
+                <div class="step" data-component="0">
+                    <span class="step-index">01</span>
+                    <h3>Pressure Glass</h3>
+                    <p>Gorilla® Glass Victus 2 — druckresistent bis 30 m Tauchtiefe.</p>
+                </div>
+
+                <div class="step" data-component="1">
+                    <span class="step-index">02</span>
+                    <h3>Sealed Frame</h3>
+                    <p>IP68-Gehäuse aus recyceltem Aluminium — schützt vor Salzwasser und Sand.</p>
+                </div>
+
+                <div class="step" data-component="2">
+                    <span class="step-index">03</span>
+                    <h3>Hauptplatine</h3>
+                    <p>Vollständig versiegelte Elektronik — funktioniert auch unter Wasser.</p>
+                </div>
+
+                <div class="step" data-component="3">
+                    <span class="step-index">04</span>
+                    <h3>Replaceable Battery</h3>
+                    <p>5000 mAh, vollständig versiegelt und werkzeugfrei austauschbar.</p>
+                </div>
+
+
+                <div class="step" data-component="4">
+                    <span class="step-index">05</span>
+                    <h3>Sealed Housing</h3>
+                    <p>IP68-Gehäuse aus recyceltem Aluminium — wasserdicht bis 30 m Tiefe.</p>
+                </div>
+
+                <div class="step" data-component="5">
+                    <span class="step-index">06</span>
+                    <h3>Float Strap</h3>
+                    <p>Schwimmfähiges Trageband, geprüft auf 80 kg Zugkraft.</p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- MOBILE: Karten -->
+        <div class="mobile-components">
+            <div class="explosion-intro">
+                <span class="eyebrow">Sealed Construction</span>
+                <h2>Built to<br>Stay Sealed.</h2>
+            </div>
+            <ul class="component-cards">
+                <li class="component-card">
+                    <img src="images/sea/sea-component-glass.png" alt="Pressure Glass" loading="lazy">
+                    <h3>Pressure Glass</h3>
+                    <p>Druckresistent bis 30 m Tauchtiefe.</p>
+                </li>
+                <li class="component-card">
+                    <img src="images/sea/sea-component-frame.png" alt="Sealed Frame" loading="lazy">
+                    <h3>Sealed Frame</h3>
+                    <p>IP68 — schützt vor Salzwasser und Sand.</p>
+                </li>
+                <li class="component-card">
+                    <img src="images/sea/sea-component-pcb.png" alt="Hauptplatine" loading="lazy">
+                    <h3>Hauptplatine</h3>
+                    <p>Versiegelte Elektronik — auch unter Wasser.</p>
+                </li>
+                <li class="component-card">
+                    <img src="images/sea/sea-component-battery.png" alt="Battery" loading="lazy">
+                    <h3>Replaceable Battery</h3>
+                    <p>5000 mAh — versiegelt und austauschbar.</p>
+                </li>
+                <li class="component-card">
+                    <img src="images/sea/sea-component-strap.png" alt="Float Strap" loading="lazy">
+                    <h3>Float Strap</h3>
+                    <p>Schwimmfähig, 80 kg Zugkraft.</p>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- REPAIR VIDEO -->
+    <section class="repair-section">
+        <div class="repair-content">
+            <span class="eyebrow">Self Repair</span>
+            <h2>Sechs Schrauben.<br>Endlos haltbar.</h2>
+            <p>Kein Werkzeug. Keine Werkstatt. Einfach aufschrauben, Bauteil tauschen, weitermachen.</p>
+        </div>
+        <div class="repair-video-wrap">
+            <video autoplay muted loop playsinline>
+                <source src="videos/handsvideo.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <!-- 5. ACCESSORIES -->
+    <section class="accessories-section reveal">
+
+        <div class="accessories-intro">
+            <span class="eyebrow">Zubehör</span>
+            <h2>Für dein Abenteuer.</h2>
+        </div>
+
+        <ul class="accessories-grid">
+
+            <li class="accessory-card">
+                <div class="accessory-img-wrap">
+                    <img src="images/sea/powerbanksea.png" alt="Waterproof Powerbank" loading="lazy">
+                </div>
+                <p class="accessory-name">Waterproof Powerbank</p>
+                <button class="btn btn-dark btn-small">Shop</button>
+            </li>
+
+            <li class="accessory-card">
+                <div class="accessory-img-wrap">
+                    <img src="images/sea/rescuesea.png" alt="Emergency Float Beacon" loading="lazy">
+                </div>
+                <p class="accessory-name">Emergency Float Beacon</p>
+                <button class="btn btn-dark btn-small">Shop</button>
+            </li>
+
+            <li class="accessory-card">
+                <div class="accessory-img-wrap">
+                    <img src="images/sea/bagsea.png" alt="Waterproof Dry Bag" loading="lazy">
+                </div>
+                <p class="accessory-name">Waterproof Dry Bag</p>
+                <button class="btn btn-dark btn-small">Shop</button>
+            </li>
+
+            <li class="accessory-card">
+                <div class="accessory-img-wrap">
+                    <img src="images/sea/Ladekabelsea.png" alt="Waterproof Cable" loading="lazy">
+                </div>
+                <p class="accessory-name">Waterproof Cable</p>
+                <button class="btn btn-dark btn-small">Shop</button>
+            </li>
+
+            <li class="accessory-card">
+                <div class="accessory-img-wrap">
+                    <img src="images/sea/repairkitsea.png" alt="Repair Kit" loading="lazy">
+                </div>
+                <p class="accessory-name">Repair Kit</p>
+                <button class="btn btn-dark btn-small">Shop</button>
+            </li>
+
+        </ul>
+
+    </section>
+
+    <!-- 6. FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-grid">
+
+            <div class="footer-col footer-newsletter">
+                <span class="logo" style="color:white;">patagonia</span>
+                <p>Verpasse keine Abenteuer mehr.</p>
+                <form class="newsletter-form" action="#" method="post">
+                    <label class="sr-only" for="newsletter-email">E-Mail-Adresse</label>
+                    <input id="newsletter-email" type="email" name="email" placeholder="Deine E-Mail-Adresse" required>
+                    <button class="btn btn-light" type="submit">Senden</button>
+                </form>
+            </div>
+
+            <div class="footer-col">
+                <h3>Hilfe</h3>
+                <a href="#">FAQ</a>
+                <a href="#">Versand</a>
+                <a href="#">Rückgabe</a>
+                <a href="#">Kontakt</a>
+            </div>
+
+            <div class="footer-col">
+                <h3>Informationen</h3>
+                <a href="#">Über uns</a>
+                <a href="#">Nachhaltigkeit</a>
+                <a href="#">Garantie</a>
+                <a href="#">Presse</a>
+            </div>
+
+            <div class="footer-col">
+                <h3>Folge uns</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.8" />
+                            <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8" />
+                            <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="TikTok">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" stroke="currentColor" stroke-width="1.8"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2025 Patagonia</span>
+            <div class="footer-legal">
+                <a href="#">Impressum</a>
+                <a href="#">Datenschutz</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
